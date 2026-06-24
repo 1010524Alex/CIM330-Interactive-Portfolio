@@ -2,16 +2,19 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using TMPro;
 
 public class PlayVideo : MonoBehaviour
 {
     public GameObject videoScreen;
     public bool isWithinButtonRadius;
     public VideoPlayer video;
+    public TextMeshProUGUI buttonText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         isWithinButtonRadius = false;
+        buttonText.enabled = false;
     }
 
     // Update is called once per frame
@@ -26,10 +29,17 @@ public class PlayVideo : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             isWithinButtonRadius = true;
-        }
-        else
+            buttonText.enabled = true;
+        }       
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("Has Left Space");
+        if (other.gameObject.tag == "Player")
         {
             isWithinButtonRadius = false;
+            buttonText.enabled = false;
         }
     }
 
