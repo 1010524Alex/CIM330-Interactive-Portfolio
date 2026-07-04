@@ -11,9 +11,11 @@ public class TurnOnLight : MonoBehaviour
     public GameObject darknessBox;
     public TextMeshProUGUI lightText;
     public bool isLightOn;
+    public GameObject lightTextObject;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        lightTextObject.SetActive(true);
         isLightOn = false;
         lightText.enabled = true;
         light_1.SetActive(false);
@@ -28,11 +30,13 @@ public class TurnOnLight : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             switchLightOn();
+            isLightOn = true;
         }
 
         if (isLightOn == true)
         {
             lightText.enabled = false;
+            lightTextObject.SetActive(false);
         }
     }
 
@@ -41,6 +45,5 @@ public class TurnOnLight : MonoBehaviour
         light_1.SetActive(true);
         darknessBox.SetActive(false);
         bloomSetting.intensity.value = 100;
-        isLightOn = true;
     }
 }
