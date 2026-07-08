@@ -8,6 +8,7 @@ public class TurnOnLight : MonoBehaviour
 {
     public Bloom bloomSetting;
     public GameObject light_1;
+    public GameObject light_2;
     public GameObject darknessBox;
     public TextMeshProUGUI lightText;
     public bool isLightOn;
@@ -19,6 +20,7 @@ public class TurnOnLight : MonoBehaviour
         isLightOn = false;
         lightText.enabled = true;
         light_1.SetActive(false);
+        light_2.SetActive(false);
         bloomSetting = GetComponent<Bloom>();
         bloomSetting.intensity.value = 0;
         
@@ -43,6 +45,7 @@ public class TurnOnLight : MonoBehaviour
     void switchLightOn()
     {
         light_1.SetActive(true);
+        light_2.SetActive(true);
         darknessBox.SetActive(false);
         bloomSetting.intensity.value = 100;
     }

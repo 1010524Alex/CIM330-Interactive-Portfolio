@@ -10,6 +10,7 @@ public class PlayVideo : MonoBehaviour
     public bool isWithinButtonRadius;
     public VideoPlayer video;
     public TextMeshProUGUI buttonText;
+    public AudioSource buttonAudio;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -49,6 +50,7 @@ public class PlayVideo : MonoBehaviour
         {
             video.Play();
             Debug.Log("Button is pressed");
+            buttonAudio.Play();
         }
     }
 }
