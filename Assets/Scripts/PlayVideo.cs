@@ -11,11 +11,13 @@ public class PlayVideo : MonoBehaviour
     public VideoPlayer video;
     public TextMeshProUGUI buttonText;
     public AudioSource buttonAudio;
+    public Animator buttonPressAnimation;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         isWithinButtonRadius = false;
         buttonText.enabled = false;
+        buttonPressAnimation = this.transform.parent.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,6 +53,7 @@ public class PlayVideo : MonoBehaviour
             video.Play();
             Debug.Log("Button is pressed");
             buttonAudio.Play();
+            buttonPressAnimation.SetTrigger("Button One");
         }
     }
 }

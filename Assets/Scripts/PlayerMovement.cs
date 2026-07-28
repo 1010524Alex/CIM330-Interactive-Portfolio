@@ -55,6 +55,15 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            Speed = 20f;
+        }
+        else
+        {
+            Speed = 10f;
+        }
+
         IsGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);
 
         if (IsGrounded && Velocity.y < 0)
