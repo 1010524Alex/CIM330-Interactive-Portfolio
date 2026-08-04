@@ -4,6 +4,8 @@ public class TextScroller : MonoBehaviour, IInteractable
 {
     public GameObject pageOne;
     public GameObject pageTwo;
+    public AudioSource buttonAudio;
+    public Animator scrollButtonAnim;
 
     [SerializeField]
     string objectInteractMessage;
@@ -14,6 +16,7 @@ public class TextScroller : MonoBehaviour, IInteractable
     {
         pageOne.SetActive(true);
         pageTwo.SetActive(false);
+        scrollButtonAnim = this.transform.parent.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,12 +27,14 @@ public class TextScroller : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        TurnPageForward();
+        TurnPage();
     }
 
-    void TurnPageForward()
+    void TurnPage()
     {
         pageOne.SetActive(false);
         pageTwo.SetActive(true);
+        buttonAudio.Play();
+        scrollButtonAnim.SetTrigger("Press Button");
     }
 }
