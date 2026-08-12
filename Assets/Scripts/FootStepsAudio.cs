@@ -3,6 +3,7 @@ using UnityEngine;
 public class FootStepsAudio : MonoBehaviour
 {
     public AudioSource footsteps;
+    public AudioSource Running;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +20,16 @@ public class FootStepsAudio : MonoBehaviour
         else
         {
             footsteps.enabled = false;
+        }
+
+        if (Input.GetKey(KeyCode.W) && (Input.GetKey(KeyCode.LeftShift) || (Input.GetKey(KeyCode.A) && (Input.GetKey(KeyCode.LeftShift) || (Input.GetKey(KeyCode.S) && (Input.GetKey(KeyCode.LeftShift) || (Input.GetKey(KeyCode.D) && (Input.GetKey(KeyCode.LeftShift)))))))))
+        {
+            Running.enabled = true;
+            footsteps.enabled = false;
+        }
+        else
+        {
+            Running.enabled = false;
         }
     }
 }
