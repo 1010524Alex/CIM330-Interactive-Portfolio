@@ -675,6 +675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: In-Game Screenshot Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -1977,6 +1981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GDD Template Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -3081,6 +3089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Editing Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -3622,6 +3634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water Bubble Shield Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -4087,6 +4103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gameplay Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -4628,6 +4648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Menu Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -4856,6 +4880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Effects Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -10888,6 +10916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gameplay #2 Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -13070,6 +13102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gameplay #1 Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -14101,7 +14137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -16220,6 +16256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: In-Game World Environment Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -17287,6 +17327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pizza Mechanic Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -17399,6 +17443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Early Gameplay Concept Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -22223,6 +22271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Storyboard Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -22779,6 +22831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blueprint Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -26066,6 +26122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: World environment Picture Frame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -31379,6 +31439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2D Keypad UI Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -32330,6 +32394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Safe 3D Model Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -33504,6 +33572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Behind The Scenes Picture Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 5334037119324981776, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 6fa54b33f16a7a442b360e41cc8dafb0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 06ef6de446be16246b9398d8b0819a3f, type: 3}
@@ -42114,7 +42186,7 @@ MonoBehaviour:
   lightText: {fileID: 1603116165}
   isLightOn: 0
   lightTextObject: {fileID: 1603116163}
-  speed: 2
+  speed: 0.2
 --- !u!114 &2117008387
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -147,7 +147,7 @@ RectTransform:
   m_GameObject: {fileID: 304811160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.7619, y: 2.7619, z: 2.7619}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1941788643}
@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -325}
+  m_AnchoredPosition: {x: 303, y: -176}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304811162
@@ -608,14 +608,14 @@ RectTransform:
   m_GameObject: {fileID: 648826618}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.0842, y: 2.0842, z: 2.0842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 980106671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 303}
+  m_AnchoredPosition: {x: -22, y: 161}
   m_SizeDelta: {x: 423.7059, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648826620
@@ -638,23 +638,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tbank you For Playing!
-
-    Game Designed and Programmed  by
-
-    Alex
-    Gubieski
-
-
-    3D Modeling amd Texturing by
-
-    Alex Gubieski
-
-
-    Audio Prodided
-    by
-
-    freesound.org'
+  m_text: "Tbank you For Playing!\nGame Designed and Programmed  by\nAlex Gubieski\n\n3D
+    Modeling amd Texturing by\nAlex Gubieski\n\nAudio Prodided by\nFootsteps, Tile,
+    Male Sneakers, Slow Pace.wav by SpliceSound -- https://freesound.org/s/170506/
+    -- License: Creative Commons 0\r\n\r\nMuseum air conditioning by shaunoboyle
+    -- https://freesound.org/s/472649/ -- License: Attribution 4.0 \r\n\r\nS_Spotlight_On.wav
+    by Grubzyy -- https://freesound.org/s/422736/ -- License: Creative Commons 0\r\n\r\nTape
+    Deck Buttons and Switches by Nekkowe -- https://freesound.org/s/403247/ -- License:
+    Creative Commons 0\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -681,8 +672,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.7
-  m_fontSizeBase: 13.7
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -761,7 +752,7 @@ RectTransform:
   m_GameObject: {fileID: 707794929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.7619, y: 2.7619, z: 2.7619}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1538097962}
@@ -769,7 +760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -214.69998}
+  m_AnchoredPosition: {x: 302.99997, y: -126.29997}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707794931
@@ -915,7 +906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1013,7 +1004,7 @@ RectTransform:
   m_GameObject: {fileID: 1120885321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.7619, y: 2.7619, z: 2.7619}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 564833715}
@@ -1021,7 +1012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -116.399994}
+  m_AnchoredPosition: {x: 303.00003, y: -80}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120885323

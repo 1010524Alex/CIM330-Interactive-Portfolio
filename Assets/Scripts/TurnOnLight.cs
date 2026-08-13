@@ -18,7 +18,6 @@ public class TurnOnLight : MonoBehaviour
     public TextMeshProUGUI lightText;
     public bool isLightOn;
     public GameObject lightTextObject;
-    float elapsedTime;
     public float speed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,25 +31,27 @@ public class TurnOnLight : MonoBehaviour
         postProcessingVolume.profile.TryGet(out depthOfFieldSetting);
         bloomSetting.intensity.value = 100;
         depthOfFieldSetting.focalLength.value = 300;
+        bloomSetting.threshold.value = 0.8f;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        elapsedTime += Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             switchLightOn();
             isLightOn = true;
-            StartCoroutine(EyesAdjust());
         }
+
+        
 
         if (isLightOn == true)
         {
             lightText.enabled = false;
             lightTextObject.SetActive(false);
+            EyesAdjust();
         }
     }
 
@@ -61,10 +62,10 @@ public class TurnOnLight : MonoBehaviour
         darknessBox.SetActive(false);
     }
 
-    IEnumerator EyesAdjust()
+    void EyesAdjust()
     {
-        yield return new WaitForSeconds(1);
-        bloomSetting.intensity.value = Mathf.Lerp(100f, 3.73f, speed * elapsedTime);
-        depthOfFieldSetting.focalLength.value = Mathf.Lerp(300f, 0, speed * elapsedTime);
+        bloomSetting.intensity.value = Mathf.Lerp(bloomSetting.intensity.value, 3.73f, speed * Time.deltaTime);
+        bloomSetting.threshold.value = Mathf.Lerp(bloomSetting.threshold.value, 1, speed * Time.deltaTime);
+        depthOfFieldSetting.focalLength.value = Mathf.Lerp(depthOfFieldSetting.focalLength.value, 0, speed * Time.deltaTime);
     }
 }
