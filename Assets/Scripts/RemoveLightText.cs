@@ -20,7 +20,6 @@ public class RemoveLightText : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             lightText.SetActive(false);
-            Cursor.lockState = CursorLockMode.None;
 
             if (!isLightOn)
             {

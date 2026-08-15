@@ -932,6 +932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door#3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6697621763907784786, guid: f33cddcd94a510d44a76678ba232de2d, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4579454407841743219, guid: 64d236ebfda569f41a9411bbdea40c81, type: 3}
     - target: {fileID: 7071182760956848314, guid: f33cddcd94a510d44a76678ba232de2d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3513,6 +3517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit Door
       objectReference: {fileID: 0}
+    - target: {fileID: 6697621763907784786, guid: f33cddcd94a510d44a76678ba232de2d, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4579454407841743219, guid: 64d236ebfda569f41a9411bbdea40c81, type: 3}
     - target: {fileID: 7071182760956848314, guid: f33cddcd94a510d44a76678ba232de2d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -23613,7 +23621,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'This was a group Project that was done in GAD315 with members: Cameron
     Daly, Nicholas Walsh and Jake Hinrichsen. Our conept was to use Unreal''s Fracture
-    System to destroy a Virtual Bridge. My role was Storyboarding, Slight Asset searching
+    System to destroy a Virtual Bridge. My role was Storyboarding, slight Asset searching/implementing
     and editing the final cut of the video In Da Vinci.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -31855,11 +31863,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'One Particular obstacle I encountered during my progress was having to
     have my images and audio remain linked to the project. Whenever I sent my project
-    publically, audio and iamges were never attached. With lecturer assistance, we
-    discovered that the issue was due to having the audio and images never linked
-    within the actual files of the project itself. By attaching the audio and images
-    within the folder like a dowloadable ''pack'', this always ensured that the audio
-    images were never lost upon public access.
+    publically, audio and images were never attached to the finished version. With
+    lecturer assistance, we discovered that the issue was due to having the audio
+    and images never linked within the actual files of the project itself. By attaching
+    the audio and images within the folder like a dowloadable ''pack'' with file
+    explorer, this always ensured that the audio images were never lost upon public
+    access.
 
 
     (2/2)'
